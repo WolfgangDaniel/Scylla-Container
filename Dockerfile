@@ -36,4 +36,4 @@ FROM install as run
 EXPOSE 8080
 
 # run the Flask listener on port 8080
-CMD ["python3", "ScyllaApi.py", "./scylla/target/scylla-0.0.1-SNAPSHOT.jar"]
+CMD ["python3", "ScyllaApi.py", "./scylla/scylla.jar"]
